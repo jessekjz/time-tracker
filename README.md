@@ -67,7 +67,7 @@ You should see the Time Tracker dashboard. Setup is complete.
 
 ### Step 5 — Connect to Google Sheets
 
-Before staff can start using the system, you need to connect it to your Google Sheet so sessions are recorded there. See the separate **Google Sheets Setup Guide** for full step-by-step instructions.
+Before staff can start using the system, you need to connect it to your Google Sheet so sessions are recorded there. See the separate **Google Sheets Setup Guide** for full step-by-step instructions. See [Google Sheets Setup](https://github.com/jessekjz/time-tracker/blob/main/GOOGLE_SHEETS_SETUP.md)
 
 ### Step 6 — Register staff tags
 
