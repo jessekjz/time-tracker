@@ -48,6 +48,8 @@ E1: TIME IN
 F1: TIME OUT
 G1: DURATION
 ```
+<img width="755" height="451" alt="Screenshot 2026-05-11 at 12 58 36" src="https://github.com/user-attachments/assets/0bc96089-421e-493c-8d7e-cd3b24bf0f8b" />
+
 
 > **Important:** Make sure the sheet tab at the bottom is called **Sheet1**. If it says something else (like "Sheet2"), either rename it by double-clicking the tab, or you will need to update the script in Step 3.
 
@@ -59,6 +61,8 @@ Apps Script is Google's built-in scripting tool. It runs on Google's servers and
 
 1. With your sheet open, click **Extensions** in the top menu bar
 2. Click **Apps Script**
+<img width="727" height="413" alt="Screenshot 2026-05-11 at 13 12 14" src="https://github.com/user-attachments/assets/83867f0f-d418-4b7e-82f1-688d04aa2f82" />
+
 
 A new browser tab opens showing the Apps Script editor. You will see a function called `myFunction` — you can ignore or delete this.
 
@@ -80,6 +84,8 @@ function doGet(e) {
   // ... rest of the script
 }
 ```
+<img width="807" height="453" alt="Screenshot 2026-05-11 at 13 12 22" src="https://github.com/user-attachments/assets/1f39ad46-dc0e-405a-b3ee-2d665f7565e2" />
+
 
 6. Click the **Save** icon (or press **Ctrl+S** / **Cmd+S**)
 
