@@ -37,6 +37,8 @@ On first boot the device does not know your WiFi password. It creates its own te
 2. Connect to the network called **Time-Tracker-Setup**
 3. A setup page should open in your browser automatically
 4. If it does not open automatically, go to `http://192.168.4.1`
+<img width="1179" height="2556" alt="IMG_2027" src="https://github.com/user-attachments/assets/6036d9be-9269-4794-8e95-cb0953c73a87" />
+
 
 ### Step 3 — Enter your WiFi details
 
@@ -87,10 +89,13 @@ Or using the IP address shown on the device screen, for example:
 ```
 http://192.168.0.122/adminreset
 ```
+<img width="686" height="894" alt="Screenshot 2026-05-11 at 13 16 02" src="https://github.com/user-attachments/assets/e95f329b-2794-4c15-85ea-0835f951f407" />
 
 2. In the "Set up Google Authenticator" section, enter the current admin password.
    - Default - `admin123` *(change this ASAP — see [Changing Settings](#changing-settings))*
 3. Click "Show QR Code" to reveal the QR code and secret key.
+<img width="659" height="750" alt="Screenshot 2026-05-11 at 13 17 03" src="https://github.com/user-attachments/assets/64fe6b82-30b5-448e-b906-47faddf31321" />
+
 4. Open the Google Authenticator app on your phone.
 5. Tap the "+" icon in the app and select "Scan a QR code".
 6. Scan the QR code displayed on the page.
@@ -118,6 +123,7 @@ http://192.168.0.122
 ```
 
 The dashboard works in any modern browser. You do not need to install anything.
+<img width="945" height="592" alt="Screenshot 2026-05-11 at 13 12 49" src="https://github.com/user-attachments/assets/1bbd515d-9a50-4159-87a2-0a31cda254d1" />
 
 ---
 
@@ -164,6 +170,7 @@ The dashboard follows your device's dark or light mode setting automatically. Yo
 ---
 
 ## The Admin Panel
+<img width="946" height="708" alt="Screenshot 2026-05-11 at 13 12 31" src="https://github.com/user-attachments/assets/882581f1-8905-43bf-90b6-b79dc239d126" />
 
 The admin panel is where you manage staff tags, settings, and deal with any session issues.
 
@@ -184,12 +191,19 @@ Every staff member needs their own RFID card or key fob. These need to be regist
 
 1. Go to the Admin Panel
 2. Ask the staff member to tap their card or fob on the reader
+<img width="3024" height="4032" alt="IMG_2022" src="https://github.com/user-attachments/assets/f3717277-aa09-44c5-b589-39835e74883a" />
+
 3. The tag will appear at the top of the admin page under **Unregistered Tags**
+<img width="944" height="557" alt="Screenshot 2026-05-11 at 13 13 20" src="https://github.com/user-attachments/assets/093149fc-989a-4a5e-8ac8-769a104314e0" />
+
 4. Click **Register** next to it — the tag ID fills in automatically
 5. Type the staff member's full name
+<img width="942" height="702" alt="Screenshot 2026-05-11 at 13 13 47" src="https://github.com/user-attachments/assets/6d5b00f3-7302-41a0-afd1-0b1eaeebe97f" />
+
 6. Click **Add Tag**
 
 The tag is active immediately. No restart is needed.
+<img width="941" height="545" alt="Screenshot 2026-05-11 at 13 14 00" src="https://github.com/user-attachments/assets/fe1d4ead-0660-41d2-bc08-6a973cccccbb" />
 
 > If the Unregistered Tags section does not appear after the card is tapped, refresh the admin page. The section only shows if an unregistered tag has been scanned since the device last started.
 
@@ -209,6 +223,7 @@ Staff tap their card or fob on the black RFID reader. The system works out autom
 
 - Clocked out → tapping **clocks them in**
 - Clocked in → tapping **clocks them out**
+<img width="940" height="524" alt="Screenshot 2026-05-11 at 13 14 21" src="https://github.com/user-attachments/assets/9a43db4f-c2d8-40ba-9a91-bb1ee7089572" />
 
 ### Feedback when a card is tapped
 
@@ -232,6 +247,7 @@ Staff tap their card or fob on the black RFID reader. The system works out autom
 ## Force Closing a Session
 
 If a staff member forgets to clock out, their session stays open until they tap their card again. You can close it manually from the **dashboard** without needing physical access to the device.
+<img width="456" height="408" alt="Screenshot 2026-05-11 at 13 14 44" src="https://github.com/user-attachments/assets/91a4dc13-586f-45ad-869f-67beb157dafc" />
 
 ### Closing with the current time
 
@@ -249,10 +265,16 @@ If you know what time the person actually left, you can enter that instead:
 1. Follow steps 1–3 above
 2. When the confirmation dialog opens, switch from **Use current time** to **Enter a time**
 3. Type the clock-out time in the field provided
+<img width="460" height="519" alt="Screenshot 2026-05-11 at 13 14 55" src="https://github.com/user-attachments/assets/b9f1dffb-13f4-4602-abb3-e22318f31974" />
+
 4. Enter the admin password
 5. Click **Confirm**
 
 The entered time is recorded in the dashboard and synced to your Google Sheet.
+<img width="946" height="516" alt="Screenshot 2026-05-11 at 13 15 12" src="https://github.com/user-attachments/assets/21b44781-bf8e-4efa-bb23-aa4656ce8c04" />
+<img width="828" height="370" alt="Screenshot 2026-05-11 at 13 15 19" src="https://github.com/user-attachments/assets/f65c2d38-4fa8-44e6-b2ac-cca32ed03926" />
+
+
 
 > The admin password is required as a safety measure to prevent accidental or unauthorised session changes.
 
@@ -326,11 +348,15 @@ Go to Admin Panel → Settings and paste your Google Script URL into the field. 
 Open the Admin Panel and scroll to the **Settings** section.
 
 ### Changing the admin password
+<img width="628" height="342" alt="Screenshot 2026-05-11 at 13 15 41" src="https://github.com/user-attachments/assets/4b9cd52d-af0f-41b8-860b-0249f1a8afff" />
 
-1. Type the new password in the **New Admin Password** field
-2. Click **Save Settings**
+1. Click the **Change Admin Password** button.
+2. Enter and confirm the new password.
+3. Click **Update Password**
+<img width="450" height="301" alt="Screenshot 2026-05-11 at 13 15 47" src="https://github.com/user-attachments/assets/0c7d4b46-33ee-4bc0-a435-e2f1be6133f0" />
 
-> Write your password down somewhere safe. There is no self-service password reset — if it is forgotten, the device will need to be physically accessed by a technical administrator.
+
+> Write your password down somewhere safe. There is no way to recover a forgotten password. You will need to either reset it via [Recovering Admin Access using Google Authenticator](#recovering-admin-access-using-google-authenticator) or contact the developer to reset it on site.
 
 ---
 
@@ -350,6 +376,7 @@ Only the local session history on the device is deleted. Your Google Sheet data 
 ---
 
 ## Recovering Admin Access using Google Authenticator
+<img width="686" height="894" alt="Screenshot 2026-05-11 at 13 16 02" src="https://github.com/user-attachments/assets/850307f0-e1d8-4cd4-8ea7-7b8ff65ead5e" />
 
 1. Open your web browser and navigate to the device's admin reset page by going to:
 
