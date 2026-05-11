@@ -18,6 +18,7 @@ A staff time tracking system. Team members tap their RFID card or tag on the rea
 - [Google Sheets](#google-sheets)
 - [Changing Settings](#changing-settings)
 - [Clearing Session History](#clearing-session-history)
+- [Recovering Admin Access using Google Authenticator](#recovering-admin-access-using-google-authenticator)
 - [Troubleshooting](#troubleshooting)
 
 ---
@@ -72,6 +73,33 @@ Before staff can start using the system, you need to connect it to your Google S
 ### Step 6 — Register staff tags
 
 Before anyone can clock in, their RFID card or tag must be registered with their name. See [Managing Staff Tags](#managing-staff-tags) below.
+
+### Step 7 – Google Authenticator Setup to Reset Admin Password in case of Accidental Lockout
+
+1. Open your web browser and navigate to the device's admin reset page by going to:
+
+```
+http://time-tracker.local/adminreset
+```
+
+Or using the IP address shown on the device screen, for example:
+
+```
+http://192.168.0.122/adminreset
+```
+
+2. In the "Set up Google Authenticator" section, enter the current admin password.
+   - Default - `admin123` *(change this ASAP — see [Changing Settings](#changing-settings))*
+3. Click "Show QR Code" to reveal the QR code and secret key.
+4. Open the Google Authenticator app on your phone.
+5. Tap the "+" icon in the app and select "Scan a QR code".
+6. Scan the QR code displayed on the page.
+7. The app will add the Time Tracker entry and start generating 6-digit codes every 30 seconds.
+8. You will now be able to recover admin access using Google Authenticator.
+
+You only need to set up Google Authenticator once. After setup, you can reset the password anytime using just the authenticator code.
+Keep your Google Authenticator app secure, as it provides access to reset the admin password.
+If you lose access to your authenticator app, you'll need physical access to the device to reset the password through other means.
 
 ---
 
@@ -318,6 +346,29 @@ You can wipe the session log from the dashboard without affecting your Google Sh
 4. Read the warning and confirm
 
 Only the local session history on the device is deleted. Your Google Sheet data is unaffected.
+
+---
+
+## Recovering Admin Access using Google Authenticator
+
+1. Open your web browser and navigate to the device's admin reset page by going to:
+
+```
+http://time-tracker.local/adminreset
+```
+
+Or using the IP address shown on the device screen, for example:
+
+```
+http://192.168.0.122/adminreset
+```
+
+2. Scroll to the "Reset Admin Password" section.
+3. Enter the 6-digit code currently shown in your Google Authenticator app. You will need to be quick, this code changes every 30 seconds. It may be better to wait for a new code if the current code is close to timing out.
+4. Enter your new desired admin password.
+5. Re-enter the same password in the "Confirm new password" field.
+6. Click "Reset Password".
+7. If successful, you'll be redirected back to the admin page with the new password active.
 
 ---
 
