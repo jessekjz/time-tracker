@@ -68,7 +68,7 @@ A new browser tab opens showing the Apps Script editor. You will see a function 
 
 1. Select all the existing code in the editor (click inside it and press **Ctrl+A** on Windows or **Cmd+A** on Mac)
 2. Delete it
-3. Open the file called `google_script.js` that came with your Time Tracker (it is in the same folder as the other project files)
+3. Open the file called `google_script.js` that came with your Time Tracker. [Latest version available here](https://raw.githubusercontent.com/jessekjz/time-tracker/refs/heads/main/google_script.js)
 4. Copy the entire contents of that file
 5. Paste it into the Apps Script editor
 
