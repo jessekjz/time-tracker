@@ -5,7 +5,7 @@ A staff time tracking system. Team members tap their RFID card or tag on the rea
 ---
 
 ## Table of Contents
-
+- [Device Description](#device-description)
 - [First-Time Setup](#first-time-setup)
 - [Opening the Dashboard](#opening-the-dashboard)
 - [The Dashboard](#the-dashboard)
@@ -20,6 +20,39 @@ A staff time tracking system. Team members tap their RFID card or tag on the rea
 - [Clearing Session History](#clearing-session-history)
 - [Recovering Admin Access using Google Authenticator](#recovering-admin-access-using-google-authenticator)
 - [Troubleshooting](#troubleshooting)
+
+---
+
+## Device Description
+<img width="1920" height="1080" alt="Layout1080" src="https://github.com/user-attachments/assets/b6282596-2348-4c49-9be3-2f2c364489a1" />
+
+The physical device is designed to be as minimal as possible in order to make daily use as easy as possible.
+
+- OLED Display
+   - The OLED Display will return various messages based on what the device is currently doing when in use.
+   - The OLED Display sleeps after 30 seconds of inactivity but can be woken by the button.
+   - The OLED will automatically wake when a tag is presented.
+   
+- Button
+   - The single button on the device is used for 3 main functions, waking the device,
+   - obtaining the network IP of the device, or
+   - changing the current WiFi network of the device.
+   - All 3 functions are detailed in this guide below.
+   
+ - Green LED
+    - The Green LED will illuminate when actions are successful.
+  
+ - RED LED
+    - The RED LED will illuminate when actions are unsuccessful, including when unregistered tags are presented.
+  
+ - Tag Sensor Area
+    - This is the are where tags are presented.
+    - This **IS NOT** a button and should never be pressed as if it is one.
+    - Tags will be detected when within 1-2 cm of the area.
+  
+  - Buzzer
+    - While not visible from the outside, the device contains an audio buzzer that works in conjuction with the LEDs to provide feedback.
+
 
 ---
 
