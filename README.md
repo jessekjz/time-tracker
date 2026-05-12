@@ -54,6 +54,9 @@ The physical device is designed to be as minimal as possible in order to make da
     - While not visible from the outside, the device contains an audio buzzer that works in conjuction with the LEDs to provide feedback.
 
 
+<video src="assets/device_tag_in.mp4" autoplay loop muted playsinline width="800"></video>
+https://github.com/user-attachments/assets/775089af-3f52-43b7-b9ec-6f7c692f2784
+
 ---
 
 ## First-Time Setup
@@ -221,6 +224,11 @@ You will be prompted to log in:
 Every staff member needs their own RFID card or key fob. These need to be registered in the system before they can be used.
 
 ### Registering a new tag
+
+
+https://github.com/user-attachments/assets/7338dc83-13cd-49ee-a0c0-b599385e70c1
+
+
 
 1. Go to the Admin Panel
 2. Ask the staff member to tap their card or fob on the reader
